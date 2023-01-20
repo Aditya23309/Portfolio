@@ -1,0 +1,148 @@
+*{
+    padding:0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)),url(11.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+body{
+    background-image: url(17.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+nav{
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4));
+    height: 80px;
+    width: 100%;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgba(125, 115, 209, 0.564);
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color:red;
+}
+.logo{
+    margin-left:1% ;
+}
+.para{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.para h1{
+    font-size: 50px;
+    color: #1b7e9a;
+    font-size: 50px;
+}
+span{
+    color: orange;
+}
+.para p{
+    color:orange;
+    line-height: 22px;
+}
+.para a{
+    background: #212121;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(148, 194, 234);
+    display: inline-block;
+    margin: 30px;
+    border-radius: 6px;
+}
+.images{
+    width: 45%;
+    height: 75%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom:0;
+    transform: translate(-50%);
+    transition: bottom 1s,left 1s;
+}
+.images:hover .shape{
+    bottom:40px;
+    
+}
+.about{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    padding: 78pz 0px;
+}
+.about img{
+    height: auto;
+    width: 420px;
+}
+.about-us{
+    width: 550px;
+
+}
+.mainee{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-us h1{
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-size: 49px;
+}
+.about-us h5{
+    color: #1b7e9a;
+    font-size: 25px;
+}
+.about-us h1{
+    color: rgb(237, 55, 55);
+}
+.about-us p{
+    color: white;
+    letter-spacing: 2px;
+    line-height: 20px;
+    font-size: 20px;
+    margin-bottom: 45px;
+    font-family: 'Playfair Display', serif;
+}
+
+.buttonn {
+    background-color:  #212121;
+    border: none;
+    color: rgb(190, 87, 83);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bold;
+  }
